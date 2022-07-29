@@ -39,6 +39,7 @@ public class Quiz_6 {
         System.out.println(answer);
     }
 
+    // 소수판별
     public static int isPrime(int n) {
         for (int i = 2; i <= (int) Math.sqrt(n); i++) {
             if (n % i == 0) {
